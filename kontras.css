@@ -1,0 +1,57 @@
+h1, h2{
+    text-align: center;
+color: black;
+ }
+ .box{
+     border: 1px dashed black;
+     width: 80%;
+     background-color: #99ff99;
+     margin: auto;
+     color: red;
+     font: georgia; 
+     line-height: 2;
+     padding: 20px;
+ }
+ img{
+     height: 80%;
+     float: right;
+     opacity: 1;
+     
+ }
+ .para{
+    border-style: solid dashed dashed double;
+    border-color: red;
+    font-size: 2em;
+ }
+ 
+ .column{
+     flex:1;
+     max-width: 30%;    
+ }
+ .columns
+ {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }
+ hr{
+     width: 30%;
+     border: 30px solid red;
+   }
+   a{
+ color:black;
+ }
+ a:hover{
+ color:white;
+ text-decoration: none;
+ }
+ .centre{
+     text-align: center;
+ }
+ p.solid {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: red;
+    overflow: hidden;
+    padding: 20px;
+}
